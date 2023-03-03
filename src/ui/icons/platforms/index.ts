@@ -1,7 +1,0 @@
-export * from "./DiscordLogo"
-export * from "./SNKRSIcon"
-export * from "./KlektIcon"
-export * from "./JDIcon"
-export * from "./EbayIcon"
-export * from "./LocalIcon"
-export * from "./ConfirmedIcon"

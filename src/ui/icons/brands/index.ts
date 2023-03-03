@@ -1,6 +1,0 @@
-export * from "./ConverseIcon"
-export * from "./NewBalanceIcon"
-export * from "./OffWhiteIcon"
-export * from "./AdidasIcon"
-export * from "./NikeIcon"
-export * from "./JordanIcon"
