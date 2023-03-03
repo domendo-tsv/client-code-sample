@@ -16,10 +16,6 @@ export const PortalComponent: React.FC<IDropdownContainerProps> = observer(({ ch
     const [css] = useStyletron()
 
     useEffect(() => {
-        /**
-         * we can have multiple Selects and mount has to be last on stack
-         * depends on position of a component in react tree, when mount/unmount will be called
-         */
         window.addEventListener("scroll", state.hideTooltip, true)
         window.addEventListener("resize", state.calcIf)
         return () => {
